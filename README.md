@@ -18,7 +18,7 @@ Morphological operations are a set of operations that process images based on
 shapes. They apply a structuring element to an input image and generate an output
 image.
 Here we have used Erosion and Dilation:
-## Basics of Erosion:
+### Basics of Erosion:
 ● Erodes away the boundaries of foreground object
 ● Used to diminish the features of an image.
 ### Working of erosion:
@@ -29,3 +29,20 @@ all the pixels under the kernel is 1, otherwise it is eroded (made to zero).
 the size of the kernel.
 4. So the thickness or size of the foreground object decreases or simply
 white region decreases in the image.
+
+### Basics of dilation:
+● Increases the object area
+● Used to accentuate features
+### Working of dilation:
+1. A kernel(a matrix of odd size(3,5,7) is convolved with the image
+2. A pixel element in the original image is ‘1’ if atleast one pixel under the
+kernel is ‘1’.
+3. It increases the white region in the image or size of foreground object
+increases
+
+## Working
+The air canvas Detects blue colour in the camera frame and whichever object is
+detected, that object becomes pen/stylus to draw the objects.(Caution- We should
+not have any other blue colour object in camera frame background for air canvas to
+work smoothly)
+Here we have used some pen or objects of blue colour to act as brush to the canvas.
