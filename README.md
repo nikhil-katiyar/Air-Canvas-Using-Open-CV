@@ -64,9 +64,14 @@ To improve hand gesture tracking, we would need to dig more into OpenCV. There a
 
 ### References
 [1]https://docs.opencv.org/master/d9/df8/tutorial_root.html
+
 [2]https://www.geeksforgeeks.org/opencv-python-tutorial/
+
 [3]https://www.learnopencv.com/creating-a-virtual-pen-and-eraser-with-opencv/
+
 [4]https://towardsdatascience.com/install-and-configure-opencv-4-2-0-in-windows-10-vc-d132c52063a1
+
 [5]https://docs.opencv.org/3.4/d4/d76/tutorial_js_morphological_ops.html
+
 [6]https://www.wikipedia.org/
 
