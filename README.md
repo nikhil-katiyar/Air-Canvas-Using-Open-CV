@@ -17,7 +17,7 @@ canvas).
 Morphological operations are a set of operations that process images based on
 shapes. They apply a structuring element to an input image and generate an output
 image.
-Erosion and Dilation has been sed in the project:
+Erosion and Dilation has been used in the project:
 ### Basics of Erosion:
 ● Erodes away the boundaries of foreground object
 ● Used to diminish the features of an image.
@@ -41,6 +41,10 @@ kernel is ‘1’.
 increases
 
 ## Working
+Here Colour Detection and tracking is used in order to achieve the objective.
+The colour marker in detected and a mask is produced. 
+It includes the further steps of morphological operations on the mask produced which are Erosion and Dilation. 
+Erosion reduces the impurities present in the mask and dilation further restores the eroded main mask.
 The air canvas Detects blue colour in the camera frame and whichever object is
 detected, that object becomes pen/stylus to draw the objects.(Caution- We should
 not have any other blue colour object in camera frame background for air canvas to
